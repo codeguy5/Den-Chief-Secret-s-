@@ -16,6 +16,8 @@ html {
     line-height: 1.4;
 }
 
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -95,9 +97,82 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#wrapper h1{
+02
+ font:normal 60pt Arial;
+03
+ color:#FFFFFF;
+04
+ text-shadow: 0 1px 0 #ccc,
+05
+ 0 2px 0 #c9c9c9,
+06
+ 0 3px 0 #bbb,
+07
+ 0 4px 0 #b9b9b9,
+08
+ 0 5px 0 #aaa,
+09
+ 0 6px 1px rgba(0,0,0,.1),
+10
+ 0 0 5px rgba(0,0,0,.1),
+11
+ 0 1px 3px rgba(0,0,0,.3),
+12
+ 0 3px 5px rgba(0,0,0,.2),
+13
+ 0 5px 10px rgba(0,0,0,.25),
+14
+ 0 10px 10px rgba(0,0,0,.2),
+15
+ 0 20px 20px rgba(0,0,0,.15);
+16
+}
+17
+ 
+18
+#wrapper p{
+19
+ font:normal 40pt Arial;
+20
+ color:#FFFFFF;
+21
+ text-shadow: 0 1px 0 #ccc,
+22
+ 0 2px 0 #c9c9c9,
+23
+ 0 3px 0 #bbb,
+24
+ 0 4px 0 #b9b9b9,
+25
+ 0 5px 0 #aaa,
+26
+ 0 6px 1px rgba(0,0,0,.1),
+27
+ 0 0 5px rgba(0,0,0,.1),
+28
+ 0 1px 3px rgba(0,0,0,.3),
+29
+ 0 3px 5px rgba(0,0,0,.2),
+30
+ 0 5px 10px rgba(0,0,0,.25),
+31
+ 0 10px 10px rgba(0,0,0,.2),
+32
+ 0 20px 20px rgba(0,0,0,.15);
+33
+}
+
+
 
 html {
   height: 100%;
+}
+
+
+.doc {
+  width: 100%;
+  height: 500px;
 }
 
    #loader-wrapper .loader-section {
