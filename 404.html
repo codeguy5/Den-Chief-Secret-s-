@@ -49,12 +49,58 @@
             }
 
         }
+.myButton {
+    -moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+    -webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f0d738));
+    background:-moz-linear-gradient(top, #c62d1f 5%, #f0d738 100%);
+    background:-webkit-linear-gradient(top, #c62d1f 5%, #f0d738 100%);
+    background:-o-linear-gradient(top, #c62d1f 5%, #f0d738 100%);
+    background:-ms-linear-gradient(top, #c62d1f 5%, #f0d738 100%);
+    background:linear-gradient(to bottom, #c62d1f 5%, #f0d738 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f0d738',GradientType=0);
+    background-color:#c62d1f;
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    border-radius:18px;
+    border:1px solid #cf1b1b;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Courier New;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0d738), color-stop(1, #c62d1f));
+    background:-moz-linear-gradient(top, #f0d738 5%, #c62d1f 100%);
+    background:-webkit-linear-gradient(top, #f0d738 5%, #c62d1f 100%);
+    background:-o-linear-gradient(top, #f0d738 5%, #c62d1f 100%);
+    background:-ms-linear-gradient(top, #f0d738 5%, #c62d1f 100%);
+    background:linear-gradient(to bottom, #f0d738 5%, #c62d1f 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0d738', endColorstr='#c62d1f',GradientType=0);
+    background-color:#f0d738;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
 
     </style>
 </head>
 <body>
+  <a href="index.html" class="myButton">Go Home</a>
+  
+
     <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+    <p>Sorry, but the page you were trying to view does not exist. </p>
 </body>
 </html>
+
+
 <!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
