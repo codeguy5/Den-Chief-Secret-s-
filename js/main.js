@@ -1,4 +1,9 @@
 $('body').toggleClass('loaded');
 $(document).ready(function() {
 }
- alert("NEW DOMAIN YES!!!");
+ window.alert("NEW DOMAIN YES!!!"); 
+ window.hasOwnProperty('alert'); // false
+window.alert = null;
+window.hasOwnProperty('alert'); // true
+delete window.alert;
+window.hasOwnProperty('alert'); // false
