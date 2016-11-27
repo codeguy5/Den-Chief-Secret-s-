@@ -331,8 +331,14 @@ font-family: 'Bungee Inline', cursive;
 }
 /* Popup container */
 
-
-
+.btn {
+  background-color:#489CB8 ;
+  color: #4FBCE0;
+  transition: background-color 1s;
+}
+.btn:hover{
+color: #41A3C4;
+}
 
 
 
